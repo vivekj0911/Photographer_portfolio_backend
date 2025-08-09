@@ -10,7 +10,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "https://vidhidigitals.vercel.app/",
+  origin: "https://vidhidigitals.vercel.app",
   credentials: true
 }));
 app.use(express.json());
